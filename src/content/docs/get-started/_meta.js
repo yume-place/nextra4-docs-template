@@ -1,5 +1,5 @@
 export default {
-  // 'get-started': '',
+  index: '',
   welcome: '환영합니다',
-  what: '뭐어??',
+  what: '무엇?',
 }

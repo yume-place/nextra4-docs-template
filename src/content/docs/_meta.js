@@ -1,4 +1,4 @@
 export default {
-  'get-started': '시작하기',
+  'get-started': '문서',
   banana: '바나나',
 }
