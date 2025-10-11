@@ -28,8 +28,9 @@ bun dev
 ## 더 많은 정보
 
 이 문서 템플릿은 Nextra를 사용합니다. 더 많은 설정과 기능을 활용하기 위해서는 [Nextra 공식 문서](https://nextra.site/docs/guide)를 보며 사용을 해보셔야 합니다.  
-이 템플릿의 구조는 src 폴더 안에서 시작해요. src/app (Next.js 라우팅)과 src/content (문서 파일들)을 확인하려면 IDE에서 src 폴더를 열어보세요.  
-마크다운 파일(MDX)은 주로 src/content 폴더에서 관리하며, 여기서 추가/편집하면 사이트 네비게이션이 자동 업데이트됩니다.
+
+이 템플릿의 구조는 `src` 폴더 안에서 시작합니다. `src/app` (Next.js 라우팅)과 `src/content` (문서 파일들)을 확인하려면 IDE에서 `src` 폴더를 열어보세요.  
+마크다운 파일(MDX)은 주로 `src/content/docs`와 같은 폴더에서 관리하며, 여기서 추가/편집하면 사이트 네비게이션이 자동 업데이트됩니다.
 
 
 ## Vercel로 배포하기
