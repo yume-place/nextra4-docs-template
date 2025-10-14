@@ -26,7 +26,7 @@ const navbar = (
     // ... Your additional navbar options
   />
 )
-const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer> // 푸터임
+const footer = <Footer>MIT {new Date().getFullYear()} © baboribo.</Footer> // 푸터임
  
 export default async function RootLayout({ children }) {
   return (
