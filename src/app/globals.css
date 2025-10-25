@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* -- */
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard JP.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+@font-face {
+	font-family: 'Pretendard JP Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('./woff2/PretendardJPVariable.woff2') format('woff2-variations');
+}
+/* -- */
+@font-face {
+	font-family: 'SUIT Variable';
+	font-weight: 100 900;
+	src: url('./woff2/SUIT-Variable.woff2') format('woff2-variations');
+}
+/* -- */
+
+body {
+    font-family: 'Pretendard JP Variable', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'SUIT Variable', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif !important;
+}
+/* Windows에서 Chromium으로 동작하는 브라우저(Google Chrome, Edge 등)의 경우 Noto Sans KR이 기본 폰트로 설정되어 있습니다. */
