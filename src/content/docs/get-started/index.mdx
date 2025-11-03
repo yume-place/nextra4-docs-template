@@ -1,8 +1,14 @@
+import { Cards } from 'nextra/components'
+
 # 시작하기
 
 문서 섹션에 오신 것을 환영합니다!
 
 ## 사용 가능한 문서
-
+{/* 
 - [환영합니다](/docs/get-started/welcome) - 시작하기
-- [무엇인가요?](/docs/get-started/what) - Nextra에 대해 알아보기
+- [무엇인가요?](/docs/get-started/what) - Nextra에 대해 알아보기 */}
+<Cards>
+    <Cards.Card title="환영합니다" href="/docs/get-started/welcome" />
+    <Cards.Card title="무엇인가요?" href="/docs/get-started/what" />
+</Cards>
